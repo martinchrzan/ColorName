@@ -20,3 +20,6 @@ Supports long and shorthand version with or without a leading #
 
 
 **Ported from https://chir.ag/projects/name-that-color**
+
+[![NuGet](https://img.shields.io/nuget/v/ColorName.svg)](https://www.nuget.org/packages/ColorName) on [NuGet](https://www.nuget.org/packages/ColorName)
+
