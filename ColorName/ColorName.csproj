@@ -1,0 +1,25 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <Title>ColorName</Title>
+    <Authors>Martin Chrzan</Authors>
+    <Description>Get a name of a color</Description>
+    <Copyright>Martin Chrzan</Copyright>
+    <PackageProjectUrl>https://github.com/martinchrzan/ColorName</PackageProjectUrl>
+    <PackageReadmeFile>NugetReadme.md</PackageReadmeFile>
+    <RepositoryUrl>https://github.com/martinchrzan/ColorName</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
+    <PackageTags>Color;Name</PackageTags>
+    <PackageReleaseNotes>First version - get a name of a color from its HEX or RGB representation</PackageReleaseNotes>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Update="NugetReadme.md">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+  </ItemGroup>
+
+</Project>
